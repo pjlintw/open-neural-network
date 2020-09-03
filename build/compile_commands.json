@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/c++_project/NeuralNet/build",
+  "command": "C:/MinGW/bin/g++.exe    -g   -o CMakeFiles/NeuralNet.dir/NeuralNet.cpp.obj -c C:/c++_project/NeuralNet/NeuralNet.cpp",
+  "file": "C:/c++_project/NeuralNet/NeuralNet.cpp"
+}
+]

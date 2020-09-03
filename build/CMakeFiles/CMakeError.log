@@ -1,0 +1,56 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: ;-std=C++8.2
+Id flags:  
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '-std=C++8.2'; did you mean '-std=c++03'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: ;-std=C++8.2
+Id flags: -c 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '-std=C++8.2'; did you mean '-std=c++03'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: ;-std=C++8.2
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '-std=C++8.2'; did you mean '-std=c++03'?
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: ;-std=C++8.2
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '-std=C++8.2'; did you mean '-std=c++03'?
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: C:/c++_project/NeuralNet/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/msys/1.0/bin/make.exe cmTC_82633/fast 
+/usr/bin/make -f CMakeFiles/cmTC_82633.dir/build.make CMakeFiles/cmTC_82633.dir/build
+make[1]: Entering directory `/c/c++_project/NeuralNet/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82633.dir/testCXXCompiler.cxx.obj
+C:/MinGW/bin/g++.exe    -std=C++8.2    -o CMakeFiles/cmTC_82633.dir/testCXXCompiler.cxx.obj -c C:/c++_project/NeuralNet/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+g++.exe: error: unrecognized command line option '-std=C++8.2'; did you mean '-std=c++03'?
+make[1]: *** [CMakeFiles/cmTC_82633.dir/testCXXCompiler.cxx.obj] Error 1
+make[1]: Leaving directory `/c/c++_project/NeuralNet/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_82633/fast] Error 2
+
+

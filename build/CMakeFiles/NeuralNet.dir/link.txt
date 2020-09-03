@@ -1,0 +1,2 @@
+C:/MinGW/bin/ar.exe qc libNeuralNet.a  CMakeFiles/NeuralNet.dir/NeuralNet.cpp.obj
+C:/MinGW/bin/ranlib.exe libNeuralNet.a
